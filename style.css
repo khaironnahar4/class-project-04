@@ -1,0 +1,162 @@
+#nav {
+    background-color: rgb(3, 141, 184);
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+#nav ul{
+    list-style-type: none;
+    display: inline;
+    overflow: hidden; 
+    margin: 0px;
+    padding: 0%;
+}
+
+#nav ul li{
+    float: right;
+    margin: 0 5px 0px 0;
+    padding: 2px;
+    border: 3px solid white;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    transition: 0.5s;
+    
+}
+#nav ul li a:hover {
+    background-color: black;
+}
+
+#header img{
+    height: 560px;
+    width: 1340px;
+    display: inline;
+   
+ 
+
+}
+#intro {
+    height: 560px;
+    width: 1340px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: -565px;
+    position: absolute;
+}
+#intro h1{
+    text-align: center;
+    color: rgb(226, 226, 226);
+    position: relative;
+    margin-top: 150px;
+    font-size: 80px;
+}
+#intro h3{
+    text-align: center;
+    color: rgb(196, 195, 195);
+    position: relative;
+    margin-top: -30px;
+    font-size: 30px;
+}
+#intro p{
+    text-align: center;
+    color: rgb(184, 184, 184);
+    position: relative;
+    margin-top: -20px;
+}
+
+#gallery {
+    margin: 25px 10px 25px;
+}
+
+#gallery h1{
+    color: rgb(32, 32, 32);
+    text-align: center;
+    font-size: 40px;
+    margin: 100px 50px 50px 50px;
+}
+
+.art-1{
+    height: 80%;
+    width: 35%;
+    display: inline-block;
+    margin: 10px;
+    position: absolute;
+}
+.art-2{
+    height: 70%;
+    width: 60%;
+    display: inline-block;
+    position: absolute;
+    margin: 10px 10px 10px 500px;
+    
+}
+
+.art-3{
+    height: 65%;
+    width: 35%;
+    display: inline-block;
+    margin: 525px 10px 10px 10px;
+    position: absolute;
+   
+}
+
+.art-4{
+    height: 75%;
+    width: 30%;
+    display: inline-block;
+    margin: 465px 10px 10px 500px;
+    position: absolute;
+}
+
+.art-5{
+    height: 75%;
+    width: 28%;
+    display: inline-block;
+    margin: 465px 10px 10px 925px;
+    position: absolute;
+}
+.art-6{
+    height: 85%;
+    width: 35%;
+    display: inline-block;
+    margin: 950px 10px 10px 10px;
+    position: absolute;
+   
+}
+.art-7{
+    height: 85%;
+    width: 60%;
+    display: inline-block;
+    margin: 950px 10px 10px 500px;
+    position: absolute;
+}
+
+#about-me h1{
+    color: rgb(37, 37, 37);
+    margin: 1550px 10px 10px 10px;
+    text-align: center;
+    font-size: 40px;
+}
+.my-image{
+    display: inline-block;
+    position: absolute;
+    margin: 100px 10px 10px 150px;
+}
+.description{
+    height: 100%;
+    width: 50%;
+    margin: 60px 100px 50px 600px;
+    padding: 10px;
+    color: rgb(59, 59, 59);
+}
